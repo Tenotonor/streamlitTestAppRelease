@@ -21,4 +21,4 @@ for i, j in zip(df["위도"],df["경도"]):
     ).add_to(marker_cluster)
 
 # [TODO] 이번에는 st.로 시작하지 않습니다! 지도 m을 folium_static을 이용하여 시각화합니다.
-________
+folium_static(m)
